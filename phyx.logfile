@@ -1,0 +1,6 @@
+pxrr -t ASTRAL_all_orthologs.tre -g ANLI2,GIPH2,KEBO,RIHU2,SAPU -o ASTRAL_all_orthologs.rooted.tre
+pxrr -t ASTRAL_pythia_filtered.tre -g ANLI2,GIPH2,KEBO,RIHU2,SAPU -o ASTRAL_pythia_filtered.rooted.tre
+pxrr -t ASTRAL_TCA_filtered.tre -g ANLI2,GIPH2,KEBO,RIHU2,SAPU -o ASTRAL_TCA_filtered.rooted.tre
+pxrr -t ASTRAL_pythia_filtered.tre -g KEBO -o ASTRAL_pythia_filtered.rooted.tre
+pxrr -t ASTRAL_TCA_filtered.tre -g KEBO -o ASTRAL_TCA_filtered.rooted.tre
+pxrr -t ASTRAL_all_orthologs.tre -g KEBO -o ASTRAL_all_orthologs.rooted.tre
